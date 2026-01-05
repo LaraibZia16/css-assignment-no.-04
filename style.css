@@ -1,0 +1,91 @@
+/* Navbar Start */
+header {
+  background-color: #d8d8d8;
+  padding: 16px 0;
+}
+
+/* Nav links */
+.nav-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #000;
+  opacity: 0.7;
+}
+
+header a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Button styling */
+.btn-custom {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+}
+
+.btn-custom:hover {
+  background-color: #222;
+}
+
+/* Navbar End */
+
+/* Hero Section Start */
+.hero-title{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 49px;
+    line-height: 60px;
+    letter-spacing: 0%;
+}
+
+.hero-text{
+    
+     font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+.hero-form .form-control {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.hero-form .btn-custom {
+  background-color: #000;
+  color: #fff;
+  width: 250px;
+  border: none;
+  padding: 10px 25px;
+}
+
+.hero-form .btn-custom:hover {
+  background-color: #222;
+}
+
+/* media query */
+@media (max-width: 767px) {
+  .hero-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-form .form-control {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .hero-form .btn-custom {
+    width: 100%;
+  }
+}
+
+/* Hero Section End */
+
