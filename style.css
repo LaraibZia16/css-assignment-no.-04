@@ -22,53 +22,77 @@ header a {
 
 /* Button styling */
 .btn-custom {
-  background-color: #000;
+  background-color: #0066FF;
   color: #fff;
   border: none;
   padding: 8px 20px;
 }
 
 .btn-custom:hover {
-  background-color: #222;
+  background-color: #ffffff;
+  color: #000;
 }
 
 /* Navbar End */
 
 /* Hero Section Start */
-.hero-title{
-    font-family: Roboto;
-    font-weight: 900;
-    font-size: 49px;
-    line-height: 60px;
-    letter-spacing: 0%;
+.hero-title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 49px;
+  line-height: 60px;
+  letter-spacing: 0%;
 }
 
-.hero-text{
-    
-     font-family: Roboto;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0%;
+.hero-text {
+
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
 }
+
 .hero-form .form-control {
-  padding: 10px 15px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 10px 10px;
+  border: 3px solid #0066FF;
+  border-radius: 5px 5px;
 }
 
 .hero-form .btn-custom {
-  background-color: #000;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+
+  background-color: #0066FF;
   color: #fff;
   width: 250px;
   border: none;
-  padding: 10px 25px;
 }
 
 .hero-form .btn-custom:hover {
-  background-color: #222;
+  background-color: #cfcfcf;
+  color: #000;
 }
+
+.hero-features {
+  margin-top: 15px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.hero-features li {
+  position: relative;
+  padding-left: 16px;
+}
+
 
 /* media query */
 @media (max-width: 767px) {
@@ -86,6 +110,309 @@ header a {
     width: 100%;
   }
 }
-
 /* Hero Section End */
 
+/* Logo Section start */
+.logos-section {
+  background-color: #f9f9f9;
+}
+
+.logos-text {
+  font-family: Roboto;
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+font-variant: small-caps;
+color: #b1b1b1;
+}
+
+/* Logo sizing */
+.logos-row img {
+  max-height: 40px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.logos-row img:hover {
+  opacity: 1;
+}
+
+/* Media query */
+@media (max-width: 767px) {
+  .logos-row > div {
+    margin-bottom: 20px;
+  }
+}
+/* Logo Section End */
+
+/* Social Media Card Section Start  */
+.features-section {
+  background-color: #f9f9f9;
+}
+
+.features-title {
+  font-family: Roboto;
+font-weight: 900;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0px;
+
+}
+
+.features-text {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #000000;
+  font-size: 1rem;
+}
+
+/* Card styles */
+.feature-card {
+  background-color: #ffffff;
+  padding: 25px 15px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+}
+
+.feature-icon {
+  max-width: 50px;
+  margin-bottom: 15px;
+}
+
+.feature-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.feature-desc {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Mobile spacing fix */
+@media (max-width: 767px) {
+  .features-title {
+    font-size: 1.6rem;
+  }
+}
+/* Social Media Card Section End  */
+
+/* <!-- Growth Section Start --> */
+.audience-section {
+  background-color: #ffffff;
+}
+
+.audience-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Cards */
+.audience-card {
+  background-color: #f3f3f3;
+  padding: 25px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.card-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-sub span {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.card-icon {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.center-logo {
+  max-width: 80px;
+}
+
+.cc{
+  background-color: #ffffff;
+}
+/* Responsive */
+@media (max-width: 767px) {
+  .audience-title {
+    font-size: 1.6rem;
+  }
+}
+
+/* <!-- Growth Section End --> */
+
+/* <!-- Platforms section start --> */
+
+.platforms-section{
+  background-color:  #f3f3f3;
+}
+
+.bgi {
+  background-image: url("./images/platform/bg.png");
+  background-position: left ;
+  background-repeat: no-repeat;
+  background-color:#f3f3f3; ;
+}
+
+.platform-heading img {
+  width: 28px;
+  margin-right: 10px;
+}
+
+.platform-heading h3 {
+font-family: Roboto;
+font-weight: 900;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0px;
+margin-top: 20px;
+}
+
+.platform-desc {
+font-family: Roboto;
+font-weight: 400;
+font-size: 19.53px;
+line-height: 100%;
+letter-spacing: 0px;
+vertical-align: middle;
+}
+
+.platform-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.platform-list li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 10px;
+ font-family: Roboto;
+font-weight: 400;
+font-size: 19.53px;
+line-height: 30.38px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+.platform-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+/* Logos */
+.platform-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-left: 300px;
+  padding: 20px 20px;
+}
+
+.platform-logos img {
+  max-width: 130px;
+}
+
+
+/* Media query */
+@media (max-width: 767px) {
+  .platform-heading h3 {
+    font-size: 1.4rem;
+  }
+
+.bgi{
+  background-image: none;
+}
+.platform-logos {
+  margin-left: 0px;
+}
+  .platform-logos img {
+    max-width: 100px;
+    
+  }
+}
+
+/* <!-- Platforms section end --> */
+
+/* <!-- Template Section Start -->*/
+.templates-section {
+  background-color: #0b0d17;
+  padding: 80px 0;
+}
+
+.templates-title {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.templates-text {
+  color: #b5b5b5;
+  margin-top: 10px;
+  font-size: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Button */
+.templates-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 25px;
+  padding: 12px 24px;
+  background-color:#0066FF;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 0.95rem;
+}
+
+.templates-btn:hover {
+  background-color: #ffffff;
+  color: #0b0d17;
+}
+
+/* Cards */
+.template-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*  Media query  */
+@media (max-width: 767px) {
+  .templates-title {
+    font-size: 1.6rem;
+  }
+
+  .templates-section {
+    padding: 60px 0;
+  }
+}
+
+/* <!-- Template Section End --> */
