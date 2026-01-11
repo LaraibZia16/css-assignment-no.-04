@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,78 +12,365 @@
   <!-- Custom CSS Link -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+ <!-- Navbar Start -->
+  <header>
+    <div class="container">
+      <div class="row align-items-center">
 
-  <!-- Navbar Start -->
-   <header>
-  <div class="container">
-    <div class="row align-items-center">
+        <!-- Logo -->
+        <div class="col-md-3 col-6">
+          <img src="images/logo.png" alt="Logo" class="img-fluid">
+        </div>
 
-      <!-- Logo -->
-      <div class="col-md-3 col-6">
-        <img src="images/logo.png" alt="Logo" class="img-fluid">
+        <!-- Mobile Menu Button (only on small screens) -->
+        <div class="col-6 d-md-none text-end">
+          <button class="btn btn-custom">Menu</button>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="col-md-6 d-none d-md-block">
+          <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="#">Platform</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Widgets</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Templetes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          </ul>
+        </div>
+
+        <!-- Right side -->
+        <div class="col-md-3 d-none d-md-block text-end">
+          <a href="#" class="me-3">Login</a>
+          <button class="btn btn-custom">Start Free Trial</button>
+        </div>
+
       </div>
-
-      <!-- Mobile Menu Button (only on small screens) -->
-      <div class="col-6 d-md-none text-end">
-        <button class="btn btn-custom">Menu</button>
-      </div>
-
-      <!-- Navigation Links -->
-      <div class="col-md-6 d-none d-md-block">
-        <ul class="nav justify-content-center">
-          <li class="nav-item"><a class="nav-link" href="#">Platform</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Widgets</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Templetes</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-        </ul>
-      </div>
-
-      <!-- Right side -->
-      <div class="col-md-3 d-none d-md-block text-end">
-        <a href="#" class="me-3">Login</a>
-        <button class="btn btn-custom">Start Free Trial</button>
-      </div>
-
     </div>
-  </div>
-</header>
+  </header>
+  <!-- Navbar End -->
 
-<!-- Navbar End -->
+  <!-- Hero Section Start -->
+  <section class="hero py-5">
+    <div class="container">
+      <div class="row align-items-center">
 
-<!-- Hero Section Start -->
+        <!-- Left: Text + Input -->
+        <div class="col-md-6">
+          <h1 class="hero-title">Display Instagram Stories on any website, in seconds.</h1>
+          <p class="hero-text">Display Instagram Stories Widget on your website, that auto-syncs, <br>and updates each
+            time you add a photo in your active story. </p>
 
-<section class="hero py-5">
+          <!-- Input field -->
+          <form class="hero-form d-flex">
+            <input type="text" class="form-control me-2" placeholder="Enter your email">
+            <button class="btn btn-custom" type="submit">Start Free Trial</button>
+          </form>
+          <ul class="hero-features">
+            <li>Free 7-day trial</li>
+            <li>• Easy setup</li>
+            <li>• Cancel any time</li>
+          </ul>
+
+        </div>
+
+        <!-- Right: Image -->
+        <div class="col-md-6 text-center">
+          <img src="./images/hero.png" alt="Hero Image" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Logo Section start -->
+  <section class="logos-section py-5">
+    <div class="container">
+
+      <!-- Text -->
+      <p class="logos-text mb-4">
+        Join 50,000+ websites that use EmbedSocial to sell more
+      </p>
+
+      <!-- Logos -->
+      <div class="row justify-content-center align-items-center logos-row">
+        <div class="col-4 col-md-2 text-center">
+          <img src="./images/logos/cnn.png" alt="Logo 1" class="img-fluid">
+        </div>
+        <div class="col-4 col-md-2 text-center">
+          <img src="./images/logos/florencebymills-logo 1.png" alt="Logo 2" class="img-fluid">
+        </div>
+        <div class="col-4 col-md-2 text-center">
+          <img src="./images/logos/netgeo.png" alt="Logo 3" class="img-fluid">
+        </div>
+        <div class="col-4 col-md-2 text-center">
+          <img src="./images/logos/industrious 1.png" alt="Logo 4" class="img-fluid">
+        </div>
+        <div class="col-4 col-md-2 text-center">
+          <img src="./images/logos/ancestry-logo 1.png" alt="Logo 5" class="img-fluid">
+        </div>
+        <div class="col-4 col-md-2 text-center">
+          <img src="./images/logos/nike.png" alt="Logo 6" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Logo Section End  -->
+
+  <!-- COMPLEX SECTION (TO BE ADDED LATER) Start-->
+  <!-- COMPLEX SECTION (TO BE ADDED LATER) End -->
+
+  <!-- Social Media Card Section Start -->
+  <section class="features-section py-5">
+    <div class="container">
+
+      <!-- Heading -->
+      <div class="text-center mb-5">
+        <h2 class="features-title">Let your story live more than 24h.</h2>
+        <p class="features-text">
+          You've worked hard to create a beautiful Instagram story but it disappears in 24 hours?
+          No worries, use our story saver for Instagram to bring them to life on your website.
+        </p>
+      </div>
+
+      <!-- Cards -->
+      <div class="row justify-content-center">
+
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+          <div class="feature-card">
+            <img src="./images/Social media/instagram.png" alt="Icon 1" class="feature-icon">
+            <h5 class="feature-title">Auto-Sync</h5>
+            <p class="feature-desc">Instagram Stories</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+          <div class="feature-card">
+            <img src="./images/Social media/facebook.png" alt="Icon 2" class="feature-icon">
+            <h5 class="feature-title">Upload </h5>
+            <p class="feature-desc">Facebook Stories</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+          <div class="feature-card">
+            <img src="./images/Social media/tiktok.png" alt="Icon 3" class="feature-icon">
+            <h5 class="feature-title">Sync</h5>
+            <p class="feature-desc">TikTok Stories</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+          <div class="feature-card">
+            <img src="./images/Social media/twitter.png " alt="Icon 4" class="feature-icon">
+            <h5 class="feature-title">Upload</h5>
+            <p class="feature-desc">Twitter Fleets</p>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-2 text-center mb-4">
+          <div class="feature-card">
+            <img src="./images/Social media/linkedIn.png" alt="Icon 5" class="feature-icon">
+            <h5 class="feature-title">Upload </h5>
+            <p class="feature-desc">LinkedIn Stories</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Social Media Card Section End -->
+
+  <!-- Growth Section Start -->
+  <section class="audience-section py-5">
+    <div class="container">
+
+      <!-- Heading -->
+      <div class="text-center mb-5">
+        <h2 class="audience-title">
+          Double your conversions.<br>
+          Double your growth.
+        </h2>
+      </div>
+
+      <!-- Cards -->
+      <div class="row justify-content-center">
+
+        <!-- Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="audience-card">
+            <h5 class="card-title">Brands</h5>
+
+            <div class="card-sub d-flex align-items-center mb-2">
+              <img src="images/growth/B.png" alt="" class="card-icon">
+              <span>Increase conversions</span>
+            </div>
+
+            <p class="card-text">
+              Embed user-generated content from Instagram and grow your brand's trust.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="audience-card">
+            <h5 class="card-title">Marketers</h5>
+
+            <div class="card-sub d-flex align-items-center mb-2">
+              <img src="images/growth/M.png" alt="" class="card-icon">
+              <span>Save time</span>
+            </div>
+
+            <p class="card-text">
+              Manage and reuse Instagram stories efficiently across multiple campaigns.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="audience-card">
+            <h5 class="card-title">Web designers</h5>
+
+            <div class="card-sub d-flex align-items-center mb-2">
+              <img src="images/growth/W.png" alt="" class="card-icon">
+              <span>Fresh content</span>
+            </div>
+
+            <p class="card-text">
+              Display dynamic Instagram stories that keep websites fresh and engaging.
+            </p>
+          </div>
+        </div>
+        <!-- Center Card -->
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-4">
+            <div class="audience-card text-center cc">
+
+              <img src="images/growth/clovin.png" alt="Logo" class="center-logo mb-3">
+
+              <p class="card-text">
+                “Storytelling on another level. EmbedStories is great - it takes pride of place on our homepage
+                aggregating stories from our Instagram account. I highly recommend this product. ”.
+              </p>
+
+              <div class="d-flex justify-content-center align-items-center mt-3">
+                <img src="images/growth/pp.png" alt="" class="card-icon me-2">
+                <span class="fw-semibold">Ben Calahen, COO at Clovin</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Growth Section End -->
+
+  <!-- Platforms section start -->
+<section class="platforms-section">
   <div class="container">
     <div class="row align-items-center">
 
-      <!-- Left: Text + Input -->
-      <div class="col-md-6">
-        <h1 class="hero-title">Display Instagram Stories on any website, in seconds.</h1>
-        <p class="hero-text">Display Instagram Stories Widget on your website, that auto-syncs, <br>and updates each time you add a photo in your active story. </p>
-        
-        <!-- Input field -->
-        <form class="hero-form d-flex">
-          <input type="text" class="form-control me-2" placeholder="Enter your email">
-          <button class="btn btn-custom" type="submit">Start Free Trial</button>
-        </form>
+      <!-- LEFT CONTENT -->
+      <div class="col-md-6 mb-4 mb-md-0">
+         <img src="images/platform/logo.png" alt="Platform Icon">
+        <div class="platform-heading d-flex align-items-center mb-2">
+          <h3>Works with 99.9% of web platforms</h3>
+        </div>
+
+        <p class="platform-desc">
+          We integrate with tons of other apps, ecoomerce platforms or web builders. Native apps are avaialble, too. 
+        </p>
+
+        <ul class="platform-list">
+          <li>Works with any website</li>
+          <li>No coding required to embed</li>
+        </ul>
+
       </div>
 
-      <!-- Right: Image -->
-      <div class="col-md-6 text-center">
-        <img src="./images/hero.png" alt="Hero Image" class="img-fluid">
+      <!-- RIGHT LOGOS -->
+      <div class="col-md-6 text-center bgi">
+        <div class="platform-logos">
+          <img src="./images/platform/1.png" alt="Shopify">
+          <img src="images/platform/2.png" alt="WordPress">
+          <img src="images/platform/3.png" alt="Wix">
+          <img src="images/platform/4.png" alt="Webflow">
+          <img src="images/platform/5.png" alt="Squarespace">
+          <img src="images/platform/6.png" alt="Squarespace">
+         </div>
       </div>
 
     </div>
   </div>
 </section>
+<!-- Platforms section End -->
 
-<!-- Hero Section End -->
+ <!-- Template Section Start -->
+<section class="templates-section">
+  <div class="container text-center">
+
+    <h2 class="templates-title">
+      Get started with one of our templates
+    </h2>
+
+    <p class="templates-text">
+      Start displaying Instagram stories on your website with ready-to-use templates.
+    </p>
+
+    <a href="#" class="templates-btn">
+      See templates demos <span>→</span>
+    </a>
+
+    <!-- Template Cards -->
+    <div class="row mt-5">
+
+      <div class="col-md-3 mb-4">
+        <div class="template-card">
+          <img src="./images/template/1.png" alt="Template 1">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="template-card">
+          <img src="images/template/2.png" alt="Template 2">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="template-card">
+          <img src="images/template/3.png" alt="Template 3">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="template-card">
+          <img src="images/template/4.png" alt="Template 4">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  <!-- Template Section End -->
 
 
   <!-- Bootstrap Javascript Link -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
   </script>
+  
+  <!-- figma link -->
+  <!-- https://www.figma.com/design/bXyu07JPleIBrYkLnDiMtL/Landing-Page-Design-(Community)?node-id=0-1&t=cTExmndu1YwBI99y-1 -->
 </body>
+
 </html>
